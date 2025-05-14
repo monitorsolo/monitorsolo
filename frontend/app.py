@@ -5,7 +5,7 @@ import os
 
 # Asegura que podamos importar la función desde el backend
 sys.path.append(os.path.abspath("../backend"))
-from compare import comparar_crf_vs_ehr
+from backend.compare import comparar_crf_vs_eh
 
 st.title("Comparador de datos clínicos: CRF vs Historia Clínica")
 
